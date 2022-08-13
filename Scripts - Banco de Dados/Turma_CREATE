@@ -1,0 +1,10 @@
+CREATE TABLE Turmas (
+    Codigo INTEGER PRIMARY KEY AUTOINCREMENT,
+    Periodo VARCHAR(255) NOT NULL,
+    Data_inicio DATE NOT NULL,
+    Data_fim DATE NOT NULL,
+    Codigo_Professor INTEGER
+        REFERENCES Professores ( Matricula ),
+    Codigo_Curso INTEGER
+        REFERENCES Cursos (CodigoCurso)
+)

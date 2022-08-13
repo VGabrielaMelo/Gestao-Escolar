@@ -1,0 +1,12 @@
+INSERT INTO Administradores (
+    nome,
+    email,
+    usuario,
+    senha
+)
+VALUES (
+    '{self.nome}',
+    '{self.email}',
+    '{self.usuario}',
+    '{self.senha}'
+)

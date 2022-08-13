@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS Professores (
+    Matricula INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nome VARCHAR(255) NOT NULL,
+    CPF VARCHAR(11) NOT NULL UNIQUE,
+    Ativo BOOLEAN NOT NULL,
+    Telefone VARCHAR(11),
+    Email VARCHAR(255),
+    Formacao VARCHAR(255),
+    Especialidade VARCHAR (255)
+)

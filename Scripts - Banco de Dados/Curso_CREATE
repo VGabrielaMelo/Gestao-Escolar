@@ -1,0 +1,7 @@
+CREATE TABLE Cursos (
+    Codigo INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nome VARCHAR(255) NOT NULL,
+    Classificacao VARCHAR(255) NOT NULL,
+    Ativo BOOLEAN NOT NULL,
+    Decricao VARCHAR(255)
+)

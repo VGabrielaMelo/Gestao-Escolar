@@ -1,0 +1,19 @@
+INSERT INTO Professores(
+    Nome,
+    CPF,
+    Ativo, 
+    Telefone,
+    Email,
+    Formacao,
+    Especialidade
+)
+
+VALUES(
+    'Gabriela',
+    '12',
+     1,
+     '23455',
+     'vgm@',
+     'adm',
+     'programação'     
+)

@@ -1,0 +1,10 @@
+INSERT INTO Cursos (
+    nome,
+    classificacao,
+    ativo
+)
+VALUES (
+    'JAVA',
+    'PROGRAMAÇÃO',
+    1
+)

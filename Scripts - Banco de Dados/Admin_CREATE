@@ -1,0 +1,6 @@
+CREATE TABLE Administradores(
+    Nome Completo VARCHAR(255) PRIMARY KEY AUTOINCREMENT,
+    Email VARCHAR(255) NOT NULL,
+    Usuario VARCHAR(255) NOT NULL,
+    Senha VARCHAR (255) NOT NULL
+)

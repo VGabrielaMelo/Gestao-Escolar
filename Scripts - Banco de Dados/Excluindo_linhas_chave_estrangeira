@@ -1,0 +1,3 @@
+PRAGMA foreign_keys = 0;
+DELETE from Turmas where codigo = 1;
+PRAGMA foreign_keys = 1;
