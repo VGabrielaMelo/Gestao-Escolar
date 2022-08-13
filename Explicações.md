@@ -1,3 +1,7 @@
+# Gestão Escolar
+Projeto desenvolvido para o curso de desenvolvimento Python.
+OBS.: O projeto não está completo, o mesmo, foi criado com base nos meus conhecimentos atuais.
+
 US001 - Gerenciador de alunos
 Como usuário do administrativo.
 Quero cadastrar, listar e editar todos os alunos matriculados.
